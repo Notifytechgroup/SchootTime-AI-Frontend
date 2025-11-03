@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
   base: '/', // Add this for Netlify
   server: {
     host: "::",
-    port: 8080,
+    port: 5173,
   },
   plugins: [react()], // Remove lovable-tagger
   resolve: {
